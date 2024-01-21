@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Muller;
+    src: url("../fonts/MullerRegular.otf");
+}
+
+@font-face {
+    font-family: MullerBold;
+    src: url("../fonts/MullerBold.otf");
+}
+
+@font-face {
+    font-family: MullerExtraBold;
+    src: url("../fonts/MullerExtraBold.otf");
+}
+
+body {
+    font-family: Muller, sans-serif;
+}
+
+.header {
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    padding: 16px 0 15px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    width: 489px;
+    justify-content: space-between;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    line-height: 1;
+}
+
+.main {
+    padding: 132px 0 81px 0;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-info {
+    max-width: 622px;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+    line-height: 1.222;
+}
+
+
+.double-title {
+    color: rgb(185, 145, 80);
+}
+
+.double-title span {
+    color: rgb(255, 175, 24);
+}
+
+.main-advantages {
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantage {
+    max-width: 306px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.advantage-text {
+    margin-left: 16px;
+}
+
+.advantage-title {
+
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+}
+
+.main-action {
+    margin-top: 60px;
+}
+
+.btn {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.products {
+    padding: 80px 0 120px 0;
+}
+
+.products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+.products-items {
+    display: flex;
+    margin-top: 35px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: 282px;
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    text-align: center;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+.product-img {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+}
+
+.product-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    height: 49px;
+    margin: 14px 0 15px 0;
+}
+
+.product-action .btn {
+    width: 242px;
+    height: 50px;
+    padding: 17px;
+}
+
+.order {
+    padding: 120px 0 115px 0;
+    overflow: hidden;
+}
+
+.order .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.order-text {
+    max-width: 384px;
+}
+
+.order-text-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold", sans-serif;
+    margin-bottom: 65px;
+}
+
+.order-text-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+}
+
+.order-form {
+    margin-left: 122px;
+    max-width: 330px;
+}
+
+.order-input {
+    border: 1px solid rgb(185, 145, 80);
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    height: 60px;
+    color: rgb(119, 94, 49);
+    font-size: 18px;
+    padding: 23px 22px 24px 22px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.order-input::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+.order .btn {
+    width: 330px;
+    height: 60px;
+}
+
+.order-img {
+    width: 282px;
+    position: relative;
+    margin-left: 78px;
+}
+
+.order-img img {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+}
+
+.footer {
+    box-shadow: 0 0 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    padding: 16px 0 15px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+.burger {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.hvr-sweep-to-right:before {
+    background: #b67d12;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+.loader {
+    position: fixed;
+    background: rgba(11, 11, 12, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 20;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid rgb(185, 145, 80);
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    4.9% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    5% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+.order-input-all {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.order-success {
+    color: rgb(185, 145, 80);
+    text-align: center;
+    display: none;
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+}
+
+.error-input {
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+
+.product:hover .product-img {
+    transform: scale(1.1);
+}
+
+
